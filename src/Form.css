@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(213, 191, 191);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+.box{
+    background-color: cornsilk;
+    width: 60vw;
+    height: 50vh;
+}
+.heady{
+    background-color: rgb(14, 14, 121);
+    height: 10vh;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 0.2px;
+}
+.inpy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.intheinp{
+    height: 8vh;
+    justify-content: center;
+    margin: 1px 8px 10px 8px;
+}
+.register{
+    color: green;
+    height: 5vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25vw;
+    margin-top: 5px;
+}
